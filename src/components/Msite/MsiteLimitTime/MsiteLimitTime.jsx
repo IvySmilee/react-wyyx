@@ -1,10 +1,17 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
+import {getLimitedGoods} from '../../../redux/actions'
 
 import pic from './images/limitTime/01.png'
 import './MsiteLimitTime.less'
 
-export default class InitLayer extends Component {
+class MsiteLimitTime extends Component {
+  componentDidMount(){
+    this.props.getLimitedGoods();
+  }
   render() {
+    const limitedGoodsObj=this.props.limitedGoodsObj;
+    // console.log(limitedGoodsObj);
     return (
       <div className="m_limit_time">
         <a className="limit_link" href="#">
@@ -17,11 +24,11 @@ export default class InitLayer extends Component {
           </div>
           <div className="right_wrap">
             <div className="img_wrap">
-              <img src={pic}/>
+              <img src={limitedGoodsObj.primaryPicUrl}/>
           </div>
           <div className="price_wrap">
-            <span className="price">￥66</span>
-            <span className="price">￥99</span>
+            <span className="price">￥{limitedGoodsObj.activityPrice}</span>
+            <span className="price">￥{limitedGoodsObj.originPrice}</span>
           </div>
       </div>
   </a>
@@ -29,3 +36,8 @@ export default class InitLayer extends Component {
     )
   }
 }
+
+export default connect(
+  state=>({limitedGoodsObj:state.limitedGoodsObj}),
+  {getLimitedGoods}
+)(MsiteLimitTime)

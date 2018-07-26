@@ -1,10 +1,15 @@
 import React, {Component} from 'react'
 import BScroll from 'better-scroll'
+import {connect} from 'react-redux'
+import {getSlideList} from '../../../redux/actions'
 
 import './ShiwuSlide.less'
 
-export default class InitLayer extends Component {
+class ShiwuSlide extends Component {
   componentDidMount(){
+    this.props.getSlideList();
+  }
+  componentDidUpdate(){
     new BScroll('.s_slide-container',{
       scrollX:true,
       click:true, //默认禁止点击的
@@ -13,55 +18,31 @@ export default class InitLayer extends Component {
     })
   }
   render() {
+    const slideList=this.props.slideList;
+    // console.log(slideList);
     return (
       <div className="s_slide">
 
         <div className="s_slide-container">
           <div className="slide-wrapper" >
-            <a className="slide_item" href="javascript:;"
-               v-for="(obj,index) in slideList" >
-            <div className="slide-bg"></div>
-            <div className="total-txt">328篇文章</div>
-            <div className="slide-txt">额风格如何</div>
-          </a>
-          <a className="slide_item" href="javascript:;">
-            <div className="slide-bg"></div>
-            <div className="total-txt">328篇文章</div>
-            <div className="slide-txt">
-              严选推荐
-            </div>
-          </a>
-            <a className="slide_item" href="javascript:;">
-              <div className="slide-bg"></div>
-              <div className="total-txt">328篇文章</div>
-              <div className="slide-txt">
-                严选推荐
-              </div>
-            </a>
-            <a className="slide_item" href="javascript:;">
-              <div className="slide-bg"></div>
-              <div className="total-txt">328篇文章</div>
-              <div className="slide-txt">
-                严选推荐
-              </div>
-            </a>
-            <a className="slide_item" href="javascript:;">
-              <div className="slide-bg"></div>
-              <div className="total-txt">328篇文章</div>
-              <div className="slide-txt">
-                严选推荐
-              </div>
-            </a>
-            <a className="slide_item" href="javascript:;">
-              <div className="slide-bg"></div>
-              <div className="total-txt">328篇文章</div>
-              <div className="slide-txt">
-                严选推荐
-              </div>
-            </a>
+            {
+              slideList.map((obj,index)=>(
+                <a className="slide_item" key={index}>
+                  <div className="slide-bg" style={{backgroundImage:`url(${obj.picUrl})`}}></div>
+                  <div className="total-txt">{obj.articleCount}</div>
+                  <div className="slide-txt">{obj.title}</div>
+                </a>
+              ))
+            }
+
         </div>
       </div>
     </div>
     )
   }
 }
+
+export default connect(
+  state=>({slideList:state.slideList}),
+  {getSlideList}
+)(ShiwuSlide)

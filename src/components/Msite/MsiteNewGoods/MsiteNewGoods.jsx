@@ -1,11 +1,16 @@
 import React, {Component} from 'react'
 import BScroll from 'better-scroll'
+import {connect} from 'react-redux'
+import {getNewGoods} from '../../../redux/actions'
 
 import pic from './images/newProduct/04.png'
 import './MsiteNewGoods.less'
 
-export default class InitLayer extends Component {
+class MsiteNewGoods extends Component {
   componentDidMount(){
+    this.props.getNewGoods();
+  }
+  componentDidUpdate(){
     new BScroll('.items',{
       scrollX:true,
       click:true, //默认禁止点击的
@@ -14,6 +19,8 @@ export default class InitLayer extends Component {
     })
   }
   render() {
+    const newGoodsList=this.props.newGoodsList ;
+    // console.log(newGoodsList);
     return (
       <div className="m_new_items">
         <header className="items_head">
@@ -27,68 +34,20 @@ export default class InitLayer extends Component {
         </header>
         <div className="items">
           <ul className="itemList">
-            {/*<li className="item" v-for="(obj,index) in newGoodsList" :key="index">
-              <a className="item_info">
-                <div className="img">
-                  <img :src="obj.listPicUrl" alt="">
-                </div>
-                <p className="states" v-if="obj.promTag">{{obj.promTag}}</p>
-                <div className="name">{{obj.name}}</div>
-                <div className="info">{{obj.simpleDesc}}</div>
-                <div className="price">￥{{obj.retailPrice}}</div>
-              </a>
-            </li>*/}
-
-             <li className="item">
-               <a className="item_info">
-                 <div className="img">
-                   <img src={pic} alt=""/>
-                 </div>
-                 <div className="name">网易智造3D可逆循环扇</div>
-                 <div className="info">创新可逆模式 空气对流循环</div>
-                 <div className="price">￥499</div>
-               </a>
-             </li>
-            <li className="item">
-              <a className="item_info">
-                <div className="img">
-                  <img src={pic} alt=""/>
-                </div>
-                <div className="name">网易智造3D可逆循环扇</div>
-                <div className="info">创新可逆模式 空气对流循环</div>
-                <div className="price">￥499</div>
-              </a>
-            </li>
-            <li className="item">
-              <a className="item_info">
-                <div className="img">
-                  <img src={pic} alt=""/>
-                </div>
-                <div className="name">网易智造3D可逆循环扇</div>
-                <div className="info">创新可逆模式 空气对流循环</div>
-                <div className="price">￥499</div>
-              </a>
-            </li>
-            <li className="item">
-              <a className="item_info">
-                <div className="img">
-                  <img src={pic} alt=""/>
-                </div>
-                <div className="name">网易智造3D可逆循环扇</div>
-                <div className="info">创新可逆模式 空气对流循环</div>
-                <div className="price">￥499</div>
-              </a>
-            </li>
-            <li className="item">
-              <a className="item_info">
-                <div className="img">
-                  <img src={pic} alt=""/>
-                </div>
-                <div className="name">网易智造3D可逆循环扇</div>
-                <div className="info">创新可逆模式 空气对流循环</div>
-                <div className="price">￥499</div>
-              </a>
-            </li>
+            {
+              newGoodsList.map((obj,index)=>(
+                <li className="item" key={index}>
+                  <a className="item_info">
+                    <div className="img">
+                      <img src={obj.listPicUrl} alt=""/>
+                    </div>
+                    <div className="name">{obj.name}</div>
+                    <div className="info">{obj.simpleDesc}</div>
+                    <div className="price">￥{obj.retailPrice}</div>
+                  </a>
+                </li>
+              ))
+            }
             <li className="item more">
               <a className="see_total">
                 <span className="txt">查看更多</span>
@@ -100,3 +59,8 @@ export default class InitLayer extends Component {
     )
   }
 }
+
+export default connect(
+  state=>({newGoodsList:state.newGoodsList}),
+  {getNewGoods}
+)(MsiteNewGoods)

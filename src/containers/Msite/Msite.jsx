@@ -16,7 +16,7 @@ export default class InitLayer extends Component {
         {/*<!--主内容区-->*/}
         <Switch>
           <Route path='/app/msite/main' component={MsiteMain}/>
-          <Route path='/app/msite/detail' component={MsiteDetai}/>
+          <Route path='/app/msite/detail/:id' component={MsiteDetai}/>
           <Route component={MsiteMain}/>
         </Switch>
         {/*<!--锚点-->*/}

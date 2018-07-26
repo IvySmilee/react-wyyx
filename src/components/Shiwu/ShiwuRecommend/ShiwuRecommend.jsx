@@ -1,64 +1,68 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
+import {getRecommendList} from '../../../redux/actions'
 
-import pic from './images/02.jpg'
+// import pic from './images/02.jpg'
 import './ShiwuRecommend.less'
 
-export default class InitLayer extends Component {
+class ShiwuRecommend extends Component {
+  componentDidMount(){
+    this.props.getRecommendList();
+  }
   render() {
+    const recommendList=this.props.recommendList;
+    // console.log(recommendList);
     return (
       <div className="s_recommend">
         <div className="r_header">为你推荐</div>
-        <a className="r_main_post" href="javascript:;">
-          <div className="post_wrap">
-            <div className="name">
-              <div className="name_title" >
-                热法尔范
-              </div>{/*<!--recommendBanner-->*/}
-            </div>
-          </div>
-          <div className="post_info">
-            <div className="title_price">
-              <span className="title">大幅度</span>
-              <span className="price">55元起</span>
-            </div>
-            <div className="subtitle">温热贵糖股份提货人太突然</div>
-          </div>
-        </a>
-        <a className="r_item" href="javascript:;">
-          <div className="r_item_left">
-            <div className="user">
-              <div className="avatar">
-                <img src={pic} alt="a"/>
+        {
+          recommendList.length!==0 &&
+            <a className="r_main_post" href="javascript:;">
+              <div className="post_wrap">
+                <div className="name1">
+                  <div className="name1_title" >
+                    {recommendList.recommendBanner.nickname}
+                  </div>{/*<!--recommendBanner-->*/}
+                </div>
               </div>
-              <div className="name">滑块</div>
-            </div>
-            <div className="title">三个</div>
-            <div className="subtitle">天荒夜谈</div>
-          </div>
-          <div className="r_item_right">
-            <div className="topicTag">
-              <div className="tag">据官方的</div>
-            </div>
-          </div>
-        </a>
-        <a className="r_item" href="javascript:;">
-          <div className="r_item_left">
-            <div className="user">
-              <div className="avatar">
-                <img src={pic}/>
+              <div className="post_info">
+                <div className="title_price">
+                  <span className="title">{recommendList.recommendBanner.title}</span>
+                  <span className="price">{recommendList.recommendBanner.priceInfo}元起</span>
+                </div>
+                <div className="subtitle">{recommendList.recommendBanner.subtitle}</div>
               </div>
-              <div className="name">丁磊</div>
-            </div>
-            <div className="title">这款有机茶叶饮料，无糖不怕胖</div>
-            <div className="subtitle">云萃龙井茶饮料限时69.8元一箱</div>
-          </div>
-          <div className="r_item_right">
-            <div className="topicTag">
-              <div className="tag">丁磊的好货推荐</div>
-            </div>
-          </div>
-        </a>
+            </a>
+        }
+        {
+          recommendList.length!==0 &&
+          recommendList.recommends.map((recommend,index)=>(
+            <a className="r_item" href="javascript:;" key={index}>
+              <div className="r_item_left">
+                <div className="user">
+                  <div className="avatar">
+                    <img src={recommend.avatar} alt="a"/>
+                  </div>
+                  <div className="name">{recommend.nickname}</div>
+                </div>
+                <div className="title">{recommend.title}</div>
+                <div className="subtitle">{recommend.subtitle}</div>
+              </div>
+              <div className="r_item_right" style={{backgroundImage:`url(${recommend.picUrl})`}}>
+                <div className="topicTag">
+                  <div className="tag">{recommend.typeName}</div>
+                </div>
+              </div>
+            </a>
+          ))
+        }
+
       </div>
     )
   }
 }
+
+export default connect(
+  state=>({recommendList:state.recommendList}),
+  {getRecommendList}
+)(ShiwuRecommend)

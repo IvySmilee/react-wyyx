@@ -8,9 +8,7 @@ import './MsiteHeader.less'
 
 class MsiteHeader extends Component {
   componentDidMount(){
-    // console.log(this);
-    // this.props.getNavTags();
-    // console.log('1',this.props.navTagList);
+    this.props.getNavTags();
 
     if(!this.scroll){
        this.scroll=new BScroll('.head_nav',{
@@ -30,7 +28,8 @@ class MsiteHeader extends Component {
     })
   };*/
   render() {
-    console.log('1',this.props.navTagList);
+    // console.log('1',this.props.navTagList);
+    const navTagList=this.props.navTagList;
     return (
       <div className="m_head_wrap">
         {/*<!--搜索区-->*/}
@@ -48,36 +47,13 @@ class MsiteHeader extends Component {
             <li className="first" >
               <NavLink className="tag active" to='/app/msite/main'>推荐</NavLink>
             </li>
-            <li>
-              <NavLink className="tag active" to='/app/msite/detail'>居家</NavLink>
-            </li>
-            <li>
-              <NavLink className="tag" to='/app/msite/detail'>特区2</NavLink>
-            </li>
-            <li>
-              <NavLink className="tag" to='/app/msite/detail'>特色3</NavLink>
-            </li>
-            <li>
-              <span className="tag">特色4</span>
-            </li>
-            <li>
-              <span className="tag">特色5</span>
-            </li>
-            <li>
-              <span className="tag">特色6</span>
-            </li>
-            <li>
-              <span className="tag">特色7</span>
-            </li>
-            <li>
-              <span className="tag">特色8</span>
-            </li>
-            <li>
-              <span className="tag">特色9</span>
-            </li>
-            <li>
-              <span className="tag">特色1</span>
-            </li>
+            {
+              navTagList.map((tagObj,index)=>(
+                <li key={index}>
+                  <NavLink className="tag" to={`/app/msite/detail/${index}`}>{tagObj.name}</NavLink>
+                </li>
+              ))
+            }
         </ul>
       </div>
     </div>

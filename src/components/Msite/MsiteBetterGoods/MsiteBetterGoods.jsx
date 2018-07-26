@@ -1,11 +1,16 @@
 import React, {Component} from 'react'
 import BScroll from 'better-scroll'
+import {connect} from 'react-redux'
+import {getBetterGoods} from '../../../redux/actions'
 
 import pic from './images/newProduct/01.png'
 import './MsiteBetterGoods.less'
 
-export default class InitLayer extends Component {
+class MsiteBetterGoods extends Component {
   componentDidMount(){
+    this.props.getBetterGoods();
+  }
+  componentDidUpdate(){
     new BScroll('.better_items',{
       scrollX:true,
       click:true, //默认禁止点击的
@@ -14,6 +19,8 @@ export default class InitLayer extends Component {
     })
   }
   render() {
+    const betterGoodsList=this.props.betterGoodsList;
+    // console.log(betterGoodsList);
     return (
       <div className="m_better_goods">
         <header className="items_head">
@@ -27,58 +34,20 @@ export default class InitLayer extends Component {
         </header>
         <div className="better_items">
           <ul className="itemList">
-           {/* <li className="item" v-for="(obj,index) in betterGoodsList">
-              <a className="item_info">
-                <div className="img">
-                  <img src="obj.listPicUrl" alt=""/>
-                </div>
-                <p className="states" v-if="obj.promTag">{{obj.promTag}}</p>
-                <div className="name">{{obj.name}}</div>
-                <div className="info">{{obj.simpleDesc}}</div>
-                <div className="price">￥{{obj.retailPrice}}</div>
-              </a>
-            </li>*/}
-
-          <li className="item">
-            <a className="item_info">
-              <div className="img">
-                <img src={pic} alt=""/>
-              </div>
-              <div className="name">网易智造3D可逆循环扇</div>
-              <div className="info">创新可逆模式 空气对流循环</div>
-              <div className="price">￥499</div>
-            </a>
-          </li>
-          <li className="item">
-            <a className="item_info">
-              <div className="img">
-                <img src={pic} alt=""/>
-              </div>
-              <div className="name">网易智造3D可逆循环扇</div>
-              <div className="info">创新可逆模式 空气对流循环</div>
-              <div className="price">￥499</div>
-            </a>
-          </li>
-          <li className="item">
-            <a className="item_info">
-              <div className="img">
-                <img src={pic} alt=""/>
-              </div>
-              <div className="name">网易智造3D可逆循环扇</div>
-              <div className="info">创新可逆模式 空气对流循环</div>
-              <div className="price">￥499</div>
-            </a>
-          </li>
-          <li className="item">
-            <a className="item_info">
-              <div className="img">
-                <img src={pic} alt=""/>
-              </div>
-              <div className="name">网易智造3D可逆循环扇</div>
-              <div className="info">创新可逆模式 空气对流循环</div>
-              <div className="price">￥499</div>
-            </a>
-          </li>
+            {
+              betterGoodsList.map((obj,index)=>(
+                <li className="item" key={index}>
+                  <a className="item_info">
+                    <div className="img">
+                      <img src={obj.listPicUrl} alt=""/>
+                    </div>
+                    <div className="name">{obj.name}</div>
+                    <div className="info">{obj.simpleDesc}</div>
+                    <div className="price">￥{obj.retailPrice}</div>
+                  </a>
+                </li>
+              ))
+            }
           <li className="item more">
             <a className="see_total">
               <span className="txt">查看更多</span>
@@ -90,3 +59,8 @@ export default class InitLayer extends Component {
     )
   }
 }
+
+export default connect(
+  state=>({betterGoodsList:state.betterGoodsList}),
+  {getBetterGoods}
+)(MsiteBetterGoods)

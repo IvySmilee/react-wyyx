@@ -1,11 +1,16 @@
 import React, {Component} from 'react'
 import Swiper from 'swiper'
+import {connect} from 'react-redux'
+import {getSwiper} from '../../../redux/actions'
 
-import pic1 from './images/01.jpg'
+// import pic1 from './images/01.jpg'
 import './MsiteSwiper.less'
 
-export default class InitLayer extends Component {
+class MsiteSwiper extends Component {
   componentDidMount(){
+    this.props.getSwiper();
+  }
+  componentDidUpdate(){
     new Swiper ('.swiper-container', {
       //direction: 'vertical',
       loop: true,
@@ -15,22 +20,19 @@ export default class InitLayer extends Component {
     })
   }
   render() {
+    const swiperList=this.props.swiperList;
+    // console.log(swiperList)
     return (
       <div className="m_swiper_wrap">
         <div className="swiper-container m-swiper-container">
           <div className="swiper-wrapper m-swiper-wrapper" >
-            <div className="swiper-slide m-swiper-slide">
-              <img src={pic1} alt="a"/>
-            </div>
-            <div className="swiper-slide">
-              <img src={pic1} alt="a"/>
-            </div>
-            <div className="swiper-slide">
-              <img src={pic1} alt="a"/>
-            </div>
-            <div className="swiper-slide">
-              <img src={pic1} alt="a"/>
-            </div>
+            {
+              swiperList.map((obj,index)=>(
+                <div className="swiper-slide" key={index}>
+                  <img src={obj.picUrl} alt="a"/>
+                </div>
+              ))
+            }
           </div>
           {/*<!-- 如果需要分页器 -->*/}
           <div className="swiper-pagination m-swiper-pagination"/>
@@ -61,3 +63,8 @@ export default class InitLayer extends Component {
     )
   }
 }
+
+export default connect(
+  state=>({swiperList:state.swiperList}),
+  {getSwiper}
+)(MsiteSwiper)
