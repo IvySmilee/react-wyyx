@@ -1,0 +1,100 @@
+@rem:750/10rem;
+.m_special_selected{
+  background-color: #ffffff;
+  margin-bottom: .26666rem;
+  overflow: hidden;
+  .items_head{
+    height: 1.46667rem;
+    font-size: .42667rem;
+    position: relative;
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: center;
+    .head_content{
+      display: flex;
+      flex-flow:row nowrap;
+      align-items: center;
+      color: #333;
+      .more{
+        margin-right: 5px;
+        font-size: .42667rem;
+      }
+      .icon{
+        display: inline-block;
+        vertical-align: middle;
+        background-image: url("./images/right.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: .4rem;
+        height: .4rem;
+      }
+    }
+  }
+  .special_item{
+    width:100%;
+    //height: 480/@rem;
+    /*background-color: #8fdbff;*/
+    overflow: hidden;
+    //position: relative;
+    display: flex;
+    margin:0 0 36/@rem  30/@rem ;
+    .itemList{
+      //position: absolute;
+      //float: left;
+      height:414/@rem;
+      //overflow: hidden;
+      display: flex;
+      flex-flow: row nowrap;
+      margin-left: 30/@rem;
+      .item{
+        width:575/@rem;
+        height:auto;
+        position: relative;
+        //background-color: coral;
+        margin-right: 15px;
+        &:last-child{
+          overflow: hidden;
+        }
+        .item_img{
+          display: block;
+          img{
+            width: 100%;
+            height: 320/@rem;
+            position: relative;
+            border-radius: 5px;
+          }
+        }
+        .item_info{
+          width:100%;
+          //background-color: burlywood;
+          height: .54667rem;
+          margin-bottom: .02667rem;
+          zoom: 1;
+          padding-top:5px;
+          .title{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 5.46667rem;
+            float: left;
+            font-size: .37333rem;
+          }
+          .price{
+            float: right;
+            font-size: .37333rem;
+            color: #b4282d;
+          }
+        }
+        .introduce{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 7.66667rem;
+          font-size: .32rem;
+          color: #7F7F7F;
+        }
+      }
+    }
+  }
+}

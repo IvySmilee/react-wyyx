@@ -1,0 +1,90 @@
+@rem:750/10rem;
+.s_more{
+  margin: 0 .4rem 0;
+  padding-bottom: .2666rem;
+  .m_header{
+    height: 1.86667rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:before{
+      content: ' ';
+      display: block;
+      width: 3.52rem;
+      height: 1px;
+      background-color: #d9d9d9;
+    }
+    &:after{
+      content: ' ';
+      display: block;
+      width: 3.52rem;
+      height: 1px;
+      background-color: #d9d9d9;
+    }
+    .title{
+      margin: 0 .32rem;
+      font-size: .37333rem;
+      color: #333;
+    }
+  }
+  .m_content{
+    color: #333;
+    margin-bottom: .2666rem;
+    .content_item{
+      //width:642/@rem;
+      height:500/@rem;
+      display: block;
+      padding: .32rem;
+      margin-bottom: .4rem;
+      background-color: #fff;
+      color: #333;
+      &:last-child{
+        margin-bottom:0;
+      }
+      .img_wrap{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #f4f4f4;
+        &.one_pic{
+          width:642/@rem;
+          height:360/@rem;
+          background-image: url("http://yanxuan.nosdn.127.net/7f4a1d734bb04f276818d4b891294d5c.jpg?imageView&quality=75");
+        }
+      }
+      .three_img_wrap{
+        width:642/@rem;
+        height:360/@rem;
+        .pic1{
+          float: left;
+          width: 6.13333rem;
+          height: 4.8rem;
+          margin-right: .05333rem;
+          background-image:url("http://yanxuan.nosdn.127.net/14986367400380180.jpg?imageView&quality=75");
+        }
+        .right{
+          float: right;
+          width: 2.37333rem;
+          .pic2{
+            height: 2.37333rem;
+            margin-bottom: .05333rem;
+            background-image:url("http://yanxuan.nosdn.127.net/14986367445010182.jpg?imageView&quality=75");
+          }
+          .pic3{
+            height: 2.37333rem;
+            background-image:url("http://yanxuan.nosdn.127.net/14986367468760183.jpg?imageView&quality=75");
+          }
+        }
+      }
+      .desc{
+        font-size: .37333rem;
+        line-height:1.2 ;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-top:.38667rem;
+        padding-bottom:.37333rem ;
+      }
+    }
+  }
+}

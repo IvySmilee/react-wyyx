@@ -1,0 +1,69 @@
+@rem:750/10rem;
+/*轮播图区*/
+.m_swiper_wrap{
+  width:100%;
+  //margin-top:130/@rem;
+  margin-bottom: .26667rem;
+  .swiper-container{
+    width:750/@rem;
+    height:400/@rem;
+    .m-swiper-wrapper{
+      //transform: translate3d(0px,0px,0px);
+      .swiper-slide{
+        img{
+          width:750/@rem;
+          height:400/@rem;
+        }
+      }
+    }
+    .swiper-pagination{
+      /*background-color: red;*/
+      .swiper-pagination-bullet{
+        width: .53333rem;
+        height: .05333rem;
+        display: inline-block;
+        background: #fff;
+        opacity: .4;
+        border-radius: 0
+      }
+    }
+  }
+  .swiper_service{
+    background-color: #fff;
+    width:100%;
+    height:72/@rem;
+    .service_list{
+      width:100%;
+      height:72/@rem;
+      padding:0 0.4rem;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      .service_item{
+        flex:1;
+        .item_content{
+          display: inline-block;
+          vertical-align: middle;
+          height:32/@rem;
+          .confirm{
+            display: inline-block;
+            width:32/@rem;
+            height:32/@rem;
+            vertical-align: middle;
+            background-image: url("./images/icon/arrow.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .brief_info{
+            font-size: .32rem;
+            color: #333;
+            margin-left: .10667rem;
+            line-height: .42667rem;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
