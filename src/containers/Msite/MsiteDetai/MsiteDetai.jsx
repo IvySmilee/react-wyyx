@@ -1,61 +1,79 @@
 import React, {Component} from 'react'
+import PubSub from 'pubsub-js'
+import {withRouter} from 'react-router-dom'
 
 import pic from './image/03.png'
 import './MsiteDetai.less'
 
 
-export default class InitLayer extends Component {
+class MsiteDetai extends Component {
+  state={
+    detailInfo:{}
+  };
+  componentDidMount(){
+    if(!this.pub){
+      this.pub=PubSub.subscribe('detail',(msg,detailInfo)=>{
+        this.setState({
+          detailInfo:detailInfo
+        });
+        console.log(this.state.detailInfo);
+      });
+    }
+  };
+  componentDidUpdate(){
+    if(!this.pub){
+      this.pub=PubSub.subscribe('detail',(msg,detailInfo)=>{
+        this.setState({
+          detailInfo:detailInfo
+        });
+        console.log(this.state.detailInfo);
+      });
+    }
+  };
+
   render() {
+    // console.log(this);
+    const detailInfo=this.state.detailInfo;
+    // const index=this.props.match.params.id;
+    // console.log(index);
     return (
       <div className="msitedetai">
-        <div className="detail-wrap" v-if="navTagList[index]">
-          <div className="f-mb20" v-if="navTagList[index]">
-            <img src={pic} alt=""/>
-          </div>
-          <div className="wrap" v-for="(subCate,index) in navTagList[index].subCateList">
-            <div className="title">
-              <div >
-                <span className="name">法规回复</span>
-                <span className="desc">信得过相互扶持</span>
+        {
+          detailInfo &&
+          <div className="detail-wrap">
+            <div className="f-mb20">
+              <img src={detailInfo.bannerUrl} alt=""/>
+            </div>
+            { detailInfo.subCateList &&
+            detailInfo.subCateList.map((subCate,index)=>(
+              <div className="wrap" key={index}>
+                <div className="title">
+                  <div >
+                    <span className="name">{subCate.name}</span>
+                    <span className="desc">{subCate.frontName}</span>
+                  </div>
+                </div>
+                <div className="item">
+                  <ul v-if="navTagList[index]">
+                    {
+                      detailInfo.subCateList.map((subCate,index)=>(
+                        <li key={index}>
+                          <img src={subCate.wapBannerUrl} alt=""/>
+                          <span className="ellipsis">{subCate.frontDesc}</span>
+                          <span>{subCate.frontName}</span>
+                          <span>￥ {Math.floor(Math.random()*30+100)}</span>
+                        </li>
+                      ))
+                    }
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className="item">
-              <ul v-if="navTagList[index]">
-                <li  v-for="(subCate,index) in navTagList[index].subCateList">
-                  <img src={pic} alt=""/>
-                  <span className="ellipsis">所对应让动态画法几何硅宝科技</span>
-                  <span>特色羽绒</span>
-                  <span>￥ 66.6</span>
-                </li>
-                <li  v-for="(subCate,index) in navTagList[index].subCateList">
-                  <img src={pic} alt=""/>
-                  <span className="ellipsis">所对应让动态画法几何硅宝科技</span>
-                  <span>特色羽绒</span>
-                  <span>￥ 66.6</span>
-                </li>
-                <li  v-for="(subCate,index) in navTagList[index].subCateList">
-                  <img src={pic} alt=""/>
-                  <span className="ellipsis">所对应让动态画法几何硅宝科技</span>
-                  <span>特色羽绒</span>
-                  <span>￥ 66.6</span>
-                </li>
-                <li  v-for="(subCate,index) in navTagList[index].subCateList">
-                  <img src={pic} alt=""/>
-                  <span className="ellipsis">所对应让动态画法几何硅宝科技</span>
-                  <span>特色羽绒</span>
-                  <span>￥ 66.6</span>
-                </li>
-                <li  v-for="(subCate,index) in navTagList[index].subCateList">
-                  <img src={pic} alt=""/>
-                  <span className="ellipsis">所对应让动态画法几何硅宝科技</span>
-                  <span>特色羽绒</span>
-                  <span>￥ 66.6</span>
-                </li>
-              </ul>
-            </div>
+            ))
+            }
           </div>
-        </div>
+        }
       </div>
     )
   }
 }
+export default withRouter(MsiteDetai)

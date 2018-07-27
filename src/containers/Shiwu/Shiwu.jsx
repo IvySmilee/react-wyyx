@@ -10,7 +10,7 @@ import ShiwuZhenPin from '../../components/Shiwu/ShiwuZhenPin/ShiwuZhenPin'
 import ShiwuLook from '../../components/Shiwu/ShiwuLook/ShiwuLook'
 import ShiwuMore from '../../components/Shiwu/ShiwuMore/ShiwuMore'
 
-export default class InitLayer extends Component {
+export default class Shiwu extends Component {
   render() {
     return (
       <div className="shiwu">

@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0de57e64-c9f5-4c69-8e46-497c42df16ae" name="Default" comment="msite页面数据交互">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="0de57e64-c9f5-4c69-8e46-497c42df16ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteBetterGoods/MsiteBetterGoods.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteBetterGoods/MsiteBetterGoods.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteBrandServe/MsiteBrandServe.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteBrandServe/MsiteBrandServe.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.less" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteLimitTime/MsiteLimitTime.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteLimitTime/MsiteLimitTime.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.less" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteNewGoods/MsiteNewGoods.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteNewGoods/MsiteNewGoods.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteSpecialSelected/MsiteSpecialSelected.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteSpecialSelected/MsiteSpecialSelected.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteSwiper/MsiteSwiper.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteSwiper/MsiteSwiper.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteWelfare/MsiteWelfare.jsx" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteWelfare/MsiteWelfare.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuBanner/ShiwuBanner.jsx" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuBanner/ShiwuBanner.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuMore/ShiwuMore.jsx" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuMore/ShiwuMore.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.jsx" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.less" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuSlide/ShiwuSlide.jsx" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuSlide/ShiwuSlide.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuTenFifteen/ShiwuTenFifteen.jsx" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuTenFifteen/ShiwuTenFifteen.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuZhenPin/ShiwuZhenPin.jsx" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuZhenPin/ShiwuZhenPin.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuZhenPin/ShiwuZhenPin.less" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuZhenPin/ShiwuZhenPin.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.jsx" afterPath="$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Cart/Cart.jsx" afterPath="$PROJECT_DIR$/src/containers/Cart/Cart.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Msite/Msite.jsx" afterPath="$PROJECT_DIR$/src/containers/Msite/Msite.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions.js" afterPath="$PROJECT_DIR$/src/redux/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers.js" afterPath="$PROJECT_DIR$/src/redux/reducers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.jsx" afterPath="$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Msite/MsiteMain/MsiteMain.jsx" afterPath="$PROJECT_DIR$/src/containers/Msite/MsiteMain/MsiteMain.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Profile/Profile.jsx" afterPath="$PROJECT_DIR$/src/containers/Profile/Profile.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Shiwu/Shiwu.jsx" afterPath="$PROJECT_DIR$/src/containers/Shiwu/Shiwu.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Sort/Sort.jsx" afterPath="$PROJECT_DIR$/src/containers/Sort/Sort.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,81 +29,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
+      <file leaf-file-name="Msite.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Msite/Msite.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="213" column="24" lean-forward="false" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#359#0" expanded="true" />
-                <element signature="e#773#973#0" expanded="false" />
-                <element signature="e#1084#1282#0" expanded="false" />
-                <element signature="e#1404#1602#0" expanded="false" />
-                <element signature="e#1714#1908#0" expanded="false" />
-                <element signature="e#2035#2235#0" expanded="false" />
-                <element signature="e#2365#2567#0" expanded="false" />
-                <element signature="e#2699#2901#0" expanded="false" />
-                <element signature="e#3010#3204#0" expanded="false" />
-                <element signature="e#3329#3527#0" expanded="false" />
-                <element signature="e#3637#3833#0" expanded="false" />
-                <element signature="e#3963#4167#0" expanded="false" />
-                <element signature="e#4262#4452#0" expanded="false" />
-                <element signature="e#4547#4737#0" expanded="false" />
-                <element signature="e#4832#5022#0" expanded="false" />
-                <element signature="e#5127#5321#0" expanded="false" />
-                <element signature="e#5438#5632#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reducers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="252" column="10" lean-forward="false" selection-start-line="252" selection-start-column="2" selection-end-line="252" selection-end-column="10" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#102#461#0" expanded="true" />
-                <element signature="n#!!block;n#navTagList#0" expanded="false" />
-                <element signature="n#!!block;n#swiperList#0" expanded="false" />
-                <element signature="n#!!block;n#brandServeList#0" expanded="false" />
-                <element signature="n#!!block;n#newGoodsList#0" expanded="false" />
-                <element signature="n#!!block;n#betterGoodsList#0" expanded="false" />
-                <element signature="n#!!block;n#limitedGoodsObj#0" expanded="false" />
-                <element signature="n#!!block;n#specialGoodsList#0" expanded="false" />
-                <element signature="n#!!block;n#mainList#0" expanded="false" />
-                <element signature="n#!!block;n#sBannerList#0" expanded="false" />
-                <element signature="n#!!block;n#slideList#0" expanded="false" />
-                <element signature="n#!!block;n#recommendList#0" expanded="false" />
-                <element signature="n#!!block;n#tfList#0" expanded="false" />
-                <element signature="n#!!block;n#zpList#0" expanded="false" />
-                <element signature="n#!!block;n#yxList#0" expanded="false" />
-                <element signature="n#!!block;n#moreList#0" expanded="false" />
-                <element signature="n#!!block;n#sortList#0" expanded="false" />
-                <element signature="n#!!block;n#captcha#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shiwu.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Shiwu/Shiwu.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiwuRecommend.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="121">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsiteDetai.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#970#2196#0" expanded="false" />
+                <element signature="e#1012#1110#0" expanded="false" />
+                <element signature="e#1223#2150#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsiteHeader.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31">
+              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#966#1091#0" expanded="false" />
+                <element signature="e#1278#1483#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sort.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Sort/Sort.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="n#!!block;n#componentDidMount#0;n#Sort#0" expanded="false" />
+                <element signature="e#948#1139#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,15 +111,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Msite/MsiteNewGoods/MsiteNewGoods.less" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteBetterGoods/MsiteBetterGoods.less" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteSpecialSelected/MsiteSpecialSelected.less" />
-        <option value="$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.less" />
         <option value="$PROJECT_DIR$/src/containers/Shiwu/Shiwu.less" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.less" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/Shiwu/Shiwu.jsx" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuBanner/ShiwuBanner.less" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuSlide/ShiwuSlide.less" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuTenFifteen/ShiwuTenFifteen.less" />
@@ -164,19 +126,12 @@
         <option value="$PROJECT_DIR$/src/containers/Login/Login.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Profile/Profile.less" />
         <option value="$PROJECT_DIR$/src/containers/Cart/Cart.less" />
-        <option value="$PROJECT_DIR$/src/containers/Cart/Cart.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Sort/Sort.less" />
-        <option value="$PROJECT_DIR$/src/containers/Sort/Sort.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.jsx" />
         <option value="$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.less" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/containers/Profile/Profile.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/redux/store.js" />
         <option value="$PROJECT_DIR$/src/redux/action-types.js" />
-        <option value="$PROJECT_DIR$/src/containers/Msite/Msite.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.less" />
         <option value="$PROJECT_DIR$/src/redux/actions.js" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteBrandServe/MsiteBrandServe.jsx" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteNewGoods/MsiteNewGoods.jsx" />
@@ -184,19 +139,29 @@
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteLimitTime/MsiteLimitTime.jsx" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteWelfare/MsiteWelfare.jsx" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteSpecialSelected/MsiteSpecialSelected.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.jsx" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.less" />
         <option value="$PROJECT_DIR$/src/components/Msite/MsiteSwiper/MsiteSwiper.jsx" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuBanner/ShiwuBanner.jsx" />
-        <option value="$PROJECT_DIR$/src/redux/reducers.js" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuTenFifteen/ShiwuTenFifteen.jsx" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuSlide/ShiwuSlide.jsx" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.less" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.jsx" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuZhenPin/ShiwuZhenPin.jsx" />
         <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuZhenPin/ShiwuZhenPin.less" />
-        <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuMore/ShiwuMore.jsx" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Sort/Sort.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.less" />
+        <option value="$PROJECT_DIR$/src/redux/reducers.js" />
+        <option value="$PROJECT_DIR$/src/components/Shiwu/ShiwuMore/ShiwuMore.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Msite/MsiteMain/MsiteMain.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Shiwu/Shiwu.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Cart/Cart.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Profile/Profile.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Msite/Msite.jsx" />
       </list>
     </option>
   </component>
@@ -215,8 +180,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-91" />
-    <option name="width" value="1105" />
+    <option name="width" value="874" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -235,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,12 +208,34 @@
               <item name="react-wyyx" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-wyyx" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-wyyx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-wyyx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-wyyx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-wyyx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-wyyx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-wyyx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-wyyx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-wyyx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,25 +291,33 @@
       <option name="presentableId" value="Default" />
       <updated>1532488207854</updated>
       <workItem from="1532488210163" duration="35049000" />
-      <workItem from="1532565020960" duration="33315000" />
+      <workItem from="1532565020960" duration="41472000" />
+      <workItem from="1532651048970" duration="9439000" />
     </task>
+    <task id="LOCAL-00001" summary="msite页面数据交互">
+      <created>1532606821907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532606821907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68364000" />
+    <option name="totallyTimeSpent" value="85960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17019667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16414523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38487396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3747954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,14 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Shiwu/ShiwuLook/ShiwuLook.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Shiwu/ShiwuLook/ShiwuLook.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -399,9 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#85#547#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,7 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,43 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-          <folding>
-            <element signature="e#23#2620#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Cart/Cart.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-            <element signature="e#500#711#0" expanded="false" />
-            <element signature="e#724#935#0" expanded="false" />
-            <element signature="e#948#1159#0" expanded="false" />
-            <element signature="e#1172#1383#0" expanded="false" />
-            <element signature="e#1396#1607#0" expanded="false" />
-            <element signature="e#1620#1831#0" expanded="false" />
-            <element signature="e#1844#2055#0" expanded="false" />
-            <element signature="e#2068#2279#0" expanded="false" />
-            <element signature="e#2292#2503#0" expanded="false" />
-            <element signature="e#2516#2727#0" expanded="false" />
-            <element signature="e#2740#2951#0" expanded="false" />
-            <element signature="e#2964#3175#0" expanded="false" />
-            <element signature="e#3188#3399#0" expanded="false" />
-            <element signature="e#3412#3623#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,57 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Sort/Sort.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
-          <folding>
-            <element signature="e#154#1065#0" expanded="false" />
-            <element signature="e#1265#1950#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Sort/Sort.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#241#440#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Profile/Profile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-            <element signature="e#432#505#0" expanded="false" />
-            <element signature="e#1229#1750#0" expanded="false" />
-            <element signature="e#1268#1415#0" expanded="false" />
-            <element signature="e#1430#1573#0" expanded="false" />
-            <element signature="e#1588#1731#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,45 +460,6 @@
         <state relative-caret-position="598">
           <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#20#69#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="e#142#1163#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <element signature="e#237#264#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,48 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Msite/Msite.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#514#639#0" expanded="false" />
-            <element signature="e#826#1031#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteBrandServe/MsiteBrandServe.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-            <element signature="e#475#642#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteNewGoods/MsiteNewGoods.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-            <element signature="e#646#1775#0" expanded="false" />
-            <element signature="e#960#1764#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,9 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,18 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1532598605154" expanded="true" signature="1129:1399" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,33 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Msite/MsiteMain/MsiteMain.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteSwiper/MsiteSwiper.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!block;n#componentDidUpdate#0;n#MsiteSwiper#0" expanded="false" />
-            <element signature="e#616#1917#0" expanded="false" />
-            <element signature="e#1132#1904#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Shiwu/ShiwuBanner/ShiwuBanner.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +549,7 @@
         <state relative-caret-position="220">
           <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="158" column="13" lean-forward="true" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +566,7 @@
         <state relative-caret-position="105">
           <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
             <element signature="e#1870#2080#0" expanded="false" />
           </folding>
         </state>
@@ -796,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,28 +583,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="156" column="13" lean-forward="true" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Shiwu/ShiwuRecommend/ShiwuRecommend.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="558">
+          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Sort/Sort.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#154#1065#0" expanded="false" />
+            <element signature="e#1265#1950#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sort/SortDetail/SortDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="252" column="10" lean-forward="false" selection-start-line="252" selection-start-column="2" selection-end-line="252" selection-end-column="10" />
+        <state relative-caret-position="-23">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#102#461#0" expanded="true" />
-            <element signature="n#!!block;n#navTagList#0" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#102#461#0" expanded="false" />
             <element signature="n#!!block;n#swiperList#0" expanded="false" />
             <element signature="n#!!block;n#brandServeList#0" expanded="false" />
             <element signature="n#!!block;n#newGoodsList#0" expanded="false" />
@@ -848,11 +665,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="213" column="24" lean-forward="false" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="24" />
+        <state relative-caret-position="29">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
-            <element signature="e#0#359#0" expanded="true" />
-            <element signature="e#773#973#0" expanded="false" />
             <element signature="e#1084#1282#0" expanded="false" />
             <element signature="e#1404#1602#0" expanded="false" />
             <element signature="e#1714#1908#0" expanded="false" />
@@ -872,30 +687,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Shiwu/ShiwuMore/ShiwuMore.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="299">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#1477#1916#0" expanded="false" />
+            <element signature="e#1495#1934#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteSwiper/MsiteSwiper.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="506">
+          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+            <element signature="n#!!block;n#componentDidUpdate#0;n#MsiteSwiper#0" expanded="false" />
+            <element signature="e#616#1917#0" expanded="false" />
+            <element signature="e#1132#1904#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteBrandServe/MsiteBrandServe.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#475#642#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Shiwu/Shiwu.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="92">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Cart/Cart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Profile/Profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#430#503#0" expanded="false" />
+            <element signature="e#1227#1748#0" expanded="false" />
+            <element signature="e#1266#1413#0" expanded="false" />
+            <element signature="e#1428#1571#0" expanded="false" />
+            <element signature="e#1586#1729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Sort/Sort.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#Sort#0" expanded="false" />
+            <element signature="e#948#1139#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteMainList/MsiteMainList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1532654957942" expanded="true" signature="1135:1405" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Msite/MsiteMain/MsiteMain.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Msite/MsiteDetai/MsiteDetai.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#970#2196#0" expanded="false" />
+            <element signature="e#1012#1110#0" expanded="false" />
+            <element signature="e#1223#2150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Msite/Msite.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Msite/MsiteHeader/MsiteHeader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#966#1091#0" expanded="false" />
+            <element signature="e#1278#1483#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

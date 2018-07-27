@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 import './Cart.less'
 
-export default class InitLayer extends Component {
+export default class Cart extends Component {
   render() {
     return (
       <div className="c_wrap">

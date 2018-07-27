@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {getMainList} from '../../../redux/actions'
 
-import pic from './images/jujia/01.png'
+// import pic from './images/jujia/01.png'
 import './MsiteMainList.less'
 
 class MsiteMainList extends Component {
@@ -11,7 +11,7 @@ class MsiteMainList extends Component {
   }
   render() {
     const mainList=this.props.mainList;
-    console.log(mainList);
+    // console.log(mainList);
     return (
 
       <div className="m_list">

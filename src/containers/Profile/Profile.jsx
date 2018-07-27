@@ -6,7 +6,7 @@ import Header from './../../components/Header/Header'
 import './Profile.less'
 import pic from './images/02.jpg'
 
-export default class InitLayer extends Component {
+export default class Profile extends Component {
   render() {
     return (
       <div className="profile">

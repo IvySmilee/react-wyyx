@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {NavLink} from 'react-router-dom'
+import PubSub from 'pubsub-js'
 import BScroll from 'better-scroll'
 import {connect} from 'react-redux'
 import {getNavTags} from '../../../redux/actions'
@@ -7,6 +8,10 @@ import {getNavTags} from '../../../redux/actions'
 import './MsiteHeader.less'
 
 class MsiteHeader extends Component {
+  state={
+    index:-1,
+    isFirst:true
+  };
   componentDidMount(){
     this.props.getNavTags();
 
@@ -19,6 +24,24 @@ class MsiteHeader extends Component {
     }else{
       this.scroll.refresh();
     }
+  };
+  goTo=(index)=>{
+    // console.log(this);
+    this.setState({
+      index:index,
+      isFirst:false
+    });
+    // console.log(PubSub);
+    const detailInfo=this.props.navTagList[index];
+    // console.log(detailInfo)
+    PubSub.publish('detail',detailInfo);
+  };
+  goFirst=()=>{
+    this.setState({
+      // firstIndex:true
+      index:-1,
+      isFirst:true
+    })
   };
  /* componentDidUpdate(){
     new BScroll('.head_nav',{
@@ -44,13 +67,16 @@ class MsiteHeader extends Component {
         {/*<!--头部导航区-->*/}
         <div className="head_nav">
           <ul>
-            <li className="first" >
-              <NavLink className="tag active" to='/app/msite/main'>推荐</NavLink>
+            <li className="first" >{/*this.props.path==='/app/msite/main'   */}
+              <NavLink className={this.state.isFirst? 'tag active' :'tag'} to='/app/msite/main'
+                onClick={this.goFirst}>推荐</NavLink>
             </li>
             {
               navTagList.map((tagObj,index)=>(
                 <li key={index}>
-                  <NavLink className="tag" to={`/app/msite/detail/${index}`}>{tagObj.name}</NavLink>
+                  <NavLink className={this.state.index===index? 'tag active' :'tag'} to={`/app/msite/detail/${index}`}
+                    onClick={()=>{this.goTo(index)}}>
+                    {tagObj.name}</NavLink>
                 </li>
               ))
             }

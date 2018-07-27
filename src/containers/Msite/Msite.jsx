@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Switch,Route,Link} from 'react-router-dom'
+import {withRouter} from 'react-router-dom'
 
 import './Msite.less'
 import MsiteHeader from '../../components/Msite/MsiteHeader/MsiteHeader'
@@ -7,7 +8,8 @@ import MsiteMain from './MsiteMain/MsiteMain'
 import MsiteDetai from './MsiteDetai/MsiteDetai'
 
 
-export default class InitLayer extends Component {
+class Msite extends Component {
+
   render() {
     return (
       <div id="msite">
@@ -27,3 +29,4 @@ export default class InitLayer extends Component {
     )
   }
 }
+export default withRouter(Msite)

@@ -11,7 +11,7 @@ import MsiteSpecialSelected from '../../../components/Msite/MsiteSpecialSelected
 import MsiteMainList from '../../../components/Msite/MsiteMainList/MsiteMainList'
 import MsiteFooter from '../../../components/Msite/MsiteFooter/MsiteFooter'
 
-export default class InitLayer extends Component {
+export default class MsiteMain extends Component {
   render() {
     return (
       <div className="msite-main">

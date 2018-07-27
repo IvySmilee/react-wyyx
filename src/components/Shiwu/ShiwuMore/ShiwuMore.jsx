@@ -19,7 +19,7 @@ class ShiwuMore extends Component {
         <div className="m_content">
           {
             moreList.map((item,index)=>(
-              <a className="content_item">
+              <span className="content_item" key={index}>
                 {
                   item.picList.length===0 &&
                   <div className="img_wrap one_pic" style={{backgroundImage:`url(${item.itemPicUrl})`}}></div>
@@ -36,7 +36,7 @@ class ShiwuMore extends Component {
                   </div>
                 }
                 <div className="desc">{item.title}</div>
-              </a>
+              </span>
             ))
           }
          {/* <a className="content_item">
