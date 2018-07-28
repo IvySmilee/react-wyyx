@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {NavLink} from 'react-router-dom'
 
 import './Cart.less'
 
@@ -30,7 +31,7 @@ export default class Cart extends Component {
             <div className="cart_txt">去添加点什么吧</div>
           </div>
           <div className="c_login">
-            <span className="log_btn" to="/login">登录</span>
+            <NavLink className="log_btn" to="/app/login">登录</NavLink>
           </div>
         </div>
       </div>

@@ -1,0 +1,164 @@
+@rem:750/10rem;
+.phone-login{
+  height: 100%;
+  background-color: #ffffff;
+  .pl-content{
+    //width:375*2/@rem;
+    height:458*2/@rem;
+    //background-color: peachpuff;
+    padding:88/@rem 40/@rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    .logo{
+      width:96*2/@rem;
+      height:32*2/@rem;
+      margin-top:56/@rem;
+      img{
+        width:100%;
+        height:100%;
+      }
+    }
+    .login-form{
+      width:335.3*2/@rem;
+      height:315.8*2/@rem;
+      padding-top:39.27*2/@rem;
+      //background-color: aquamarine;
+      font-size:14px;
+      .err{
+        text-align: center;
+        color: #b4282d;
+      }
+      .input-wrap{
+        width:100%;
+        height:45.7*2/@rem;
+        padding-left:7.854*2/@rem;
+        //background-color: #dfbcff;
+        border-bottom: 1px solid #bbb;
+        position: relative;
+        &.for-help{
+          height:20.766*2/@rem;
+          border:none;
+          padding:19.028*2/@rem 0;
+          display: flex;
+          justify-content: space-between;
+          .help{
+            width:71.406*2/@rem;
+            height:21.406*2/@rem;
+          }
+          .other-login{
+            width:114.25*2/@rem;
+            height:21.406*2/@rem;
+            color: #333;
+          }
+        }
+        &.login-btn{
+          margin-top:13*2/@rem;
+          background-color: #b4282d;
+          color:#ffffff;
+          border-radius: 3px;
+          border:1px solid #b4282d;
+          text-align: center;
+          font-size: 0.4rem;
+          line-height: 1.28rem;
+        }
+        .label{
+          display: none;
+        }
+        .txt{
+          width:295.234*2/@rem;
+          height:21.8*2/@rem;
+          margin:13.923*2/@rem 0;
+          outline: none;
+          &.mima{
+            width: 5.33rem;
+          }
+        }
+        .captcha{
+          display: inline-block;
+          width: 2.3rem;
+          height: 0.75rem;
+          text-align: center;
+          color: #333;
+          font-size: 14px;
+          background: #fff;
+          line-height: 0.75rem;
+          border: 1px solid #7F7F7F;
+          border-radius: 4px;
+          position: absolute;
+          right: 10px;
+          bottom:5px;
+        }
+      }
+      .captcha-wrap{
+        width:100%;
+        height:31.344*2/@rem;
+        margin:32/@rem 0;
+        //background-color: #b1ffd0;
+        .slide-wrap{
+          width:295*2/@rem;
+          height:29.5*2/@rem;
+          border-radius: 15px;
+          border: 1px solid #bbb;
+          //overflow: visible;
+          position: relative;
+          .img-wrap{
+            display: inline-block;
+            width:66.375*2/@rem;
+            height:29.5*2/@rem;
+            margin-left:1px;
+            z-index:3;
+            img{
+              //width:99%;
+              height:90%;
+            }
+          }
+          .slide-bg{
+            position: absolute;
+            right:-0.5rem;
+            display: inline-block;
+            width:280*2/@rem;
+            height:30*2/@rem;
+            //background-color: darkred;
+            text-align: center;
+            line-height: 28.3438px;
+            color:#bbb
+          }
+        }
+      }
+    }
+    .others{
+      width:100%;
+      height:45.7*2/@rem;
+      padding-left:7.854*2/@rem;
+      margin-top:13*2/@rem;
+      background-color: #ffffff;
+      color:#b4282d;
+      border-radius: 3px;
+      border:1px solid #b4282d;
+      text-align: center;
+      font-size: 0.4rem;
+      line-height: 1.28rem;
+    }
+    .register{
+      width:100%;
+      height:19*2/@rem;
+      margin-top:16*2/@rem;
+      text-align: center;
+      font-size: 12px;
+      span{
+        color:#333;
+      }
+      i{
+        display: inline-block;
+        width:28/@rem;
+        height:28/@rem;
+        background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow-right3-c1ab37e88b.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}

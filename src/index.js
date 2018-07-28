@@ -9,7 +9,6 @@ import './mock/mockServer' //只需要引入即可
 import './assets/reset.css'
 import InitLayer from './containers/InitLayer/InitLayer';
 import App from './App'
-// import Msite from './containers/Msite/Msite'
 
 ReactDOM.render(
   <Provider store={store}>

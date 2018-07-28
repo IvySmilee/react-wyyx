@@ -1,41 +1,24 @@
 import React, {Component} from 'react'
 import PubSub from 'pubsub-js'
-import {withRouter} from 'react-router-dom'
+import {connect} from 'react-redux'
+import {getNavTags} from '../../../redux/actions'
+// import {withRouter} from 'react-router-dom'
 
-import pic from './image/03.png'
+// import pic from './image/03.png'
 import './MsiteDetai.less'
 
 
 class MsiteDetai extends Component {
-  state={
-    detailInfo:{}
-  };
+
   componentDidMount(){
-    if(!this.pub){
-      this.pub=PubSub.subscribe('detail',(msg,detailInfo)=>{
-        this.setState({
-          detailInfo:detailInfo
-        });
-        console.log(this.state.detailInfo);
-      });
-    }
-  };
-  componentDidUpdate(){
-    if(!this.pub){
-      this.pub=PubSub.subscribe('detail',(msg,detailInfo)=>{
-        this.setState({
-          detailInfo:detailInfo
-        });
-        console.log(this.state.detailInfo);
-      });
-    }
+    this.props.getNavTags();
+    console.log(this.props.getNavTags);
   };
 
   render() {
     // console.log(this);
-    const detailInfo=this.state.detailInfo;
-    // const index=this.props.match.params.id;
-    // console.log(index);
+    const index=this.props.match.params.id;
+    const detailInfo=this.props.navTagList[index];
     return (
       <div className="msitedetai">
         {
@@ -75,5 +58,9 @@ class MsiteDetai extends Component {
       </div>
     )
   }
-}
-export default withRouter(MsiteDetai)
+};
+
+export default connect(
+  state=>({navTagList:state.navTagList}), //接收reducer里面的函数的函数返回值
+  {getNavTags} //接收异步action函数
+)(MsiteDetai)

@@ -4,10 +4,13 @@ import {withRouter} from 'react-router-dom'
 import './FooterGuide.less'
 
 class FooterGuide extends Component {
+
   render() {
+    // console.log(this.props.location.pathname.substring(0,10));
+
     return (
       <footer className="footer_nav">
-        <span className={`item ${this.props.location.pathname==='/app/msite'? 'active' : ''}`}
+        <span className={`item ${this.props.location.pathname.substring(0,10)==='/app/msite'? 'active' : ''}`}
               onClick={()=>{this.props.history.replace('/app/msite')}}>
           <i className="msite_icon on"/>
           <span className="txt">首页</span>
